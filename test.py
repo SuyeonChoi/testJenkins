@@ -1,2 +1,2 @@
 print("Hello World!")
-print("test connection2")
+print("test connections")
