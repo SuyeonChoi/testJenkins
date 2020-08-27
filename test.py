@@ -13,9 +13,9 @@ def solution(n, arr):
         stack.append(i)
     return list(map(int, result))
 
-def test_simple1():
-    assert solution(4, [3, 5, 2, 7]) == [5, 7, 7, -1]
+# def test_simple1():
+#     assert solution(4, [3, 5, 2, 7]) == [5, 7, 7, -1]
 
-# def test_simple2():
-#     assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1], "elements are different"
+def test_simple2():
+    assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1], "elements are different"
 
