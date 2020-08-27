@@ -1,5 +1,5 @@
-# import sys
-# input = sys.stdin.readline
+import sys
+input = sys.stdin.readline
 
 def solution(n, arr):
     result = [-1] * n
@@ -21,6 +21,13 @@ def solution(n, arr):
 # print(result)
 
 
-def test_simple_test():
-    assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1]
+
+
+# def test_simple1():
+#     assert solution(4, [3, 5, 2, 7]) == [5, 7, 7, -1]
+
+
+def test_simple2():
+    assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1], "elements are different"
+
 
