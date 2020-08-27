@@ -17,13 +17,6 @@ def test_simple1():
     assert solution(4, [3, 5, 2, 7]) == [5, 7, 7, -1]
 
 
-def test_simple2():
-    assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1], "elements are different"
+# def test_simple2():
+#     assert solution(4, [3, 5, 2, 7]) == [5, 7, 8, -1], "elements are different"
 
-def test_simples():
-    with pytest.raises(TypeError):
-        test_simple2()
-
-test_simples()
-# test_simple1()
-# test_simple2()
