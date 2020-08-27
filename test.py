@@ -10,18 +10,7 @@ def solution(n, arr):
         if stack:
             result[i] = arr[stack[-1]]
         stack.append(i)
-
-    # print(" ".join(list(map(str, result))))
     return list(map(int, result))
-
-
-# N = int(input())
-# sequence = list(map(int, input().split()))
-# result = solution(N, sequence)
-# print(result)
-
-
-
 
 # def test_simple1():
 #     assert solution(4, [3, 5, 2, 7]) == [5, 7, 7, -1]
